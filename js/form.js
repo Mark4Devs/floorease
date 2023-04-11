@@ -109,14 +109,7 @@ $(document).ready(function(){
         event.preventDefault(); 
         if(handleContactValidations() == true){
             var form = $(this);
-            $("#form-modal").modal('show');
-            $.ajax({
-                url: form.attr('action'),
-                method: form.attr('method'),
-                data: form.serialize(),
-            }).done(function (){ 
-                $("#contactForm")[0].reset();
-            });
+            $("#form-modal").modal('show'); 
         }else{
             return false; 
         } 
