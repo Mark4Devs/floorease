@@ -1,0 +1,579 @@
+@media all and (max-width: 1680px){
+    .carousel-control-prev.home-arrow {
+        left: 0;
+    }
+    .carousel-control-next.home-arrow {
+        right: 0;
+    }
+    .carousel-control-next.testimonials-arrow {
+        right: 0;
+    }
+    .carousel-control-prev.testimonials-arrow {
+        left: 0;
+    } 
+}
+@media all and (max-width: 1440px){
+    .about-additional-content {
+        width: 90%; 
+    }
+    .benefits-container {
+        width: 90%; 
+    }
+    .expand-item { 
+        width: 60vw;
+    }
+}
+@media (hover: none) { 
+    /*--link & buttons--*/
+    .navbar-nav .nav-link:hover{
+        color: rgba(0,0,0, 0.65); 
+    }
+    .navbar-nav .nav-link.active{
+        color: #2b2e38;
+    }
+    .nav-link:hover::after {
+        width: 0;
+    }  
+    .buttons .link-button:last-of-type:hover{
+        background-color: #998857; 
+    }
+    .buttons .link-button:first-of-type:hover{
+        background-color: #2b2e38;
+    } 
+    .header-contact-us:hover{
+        background-color: transparent; 
+        color: #998857;
+    }
+    .header-contact-us:active{
+        background-color: #998857;
+        color: #ffff; 
+    }
+    .buttons .link-button.services-btn:hover{
+        background-color: #c45064; 
+    }
+    .buttons.link-button.services-btn:active{
+        background-color: #2b2e38; 
+    }
+    .carousel-control-next.home-arrow:hover, .carousel-control-prev.home-arrow:hover{
+        background-color: #c45064;
+    } 
+}
+@media all and (max-width: 1200px){
+    .social-link, .header-info-item {
+        font-size: 9px;
+        margin-left: 10px; 
+    }
+    .header-info-item .fa-solid, .social-link .fa-brands {
+        font-size: 12px;
+    }
+    .img-logo {
+        width: 40px;
+        height: auto;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link { 
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    .header-contact-us { 
+        padding: 7px;
+        font-size: 12px;
+    }
+    .main-title {
+        font-size: 45px; 
+        letter-spacing: 3px; 
+    }
+    p {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .carousel-control-next.home-arrow, .carousel-control-prev.home-arrow { 
+        padding: 5px 8px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 20px; 
+    }
+    .buttons .link-button {
+        padding: 8px; 
+        font-size: 12px;
+    }
+    .section-title {
+        font-size: 30px; 
+        margin-bottom: 12px;
+    }
+    .about-additional-content {
+        width: 100%;
+    }
+    .cats-container .cat-item { 
+        height: 300px; 
+    }
+    .cat-title span {
+        font-size: 12px; 
+    }
+    .cat-title {
+        top: 12px;
+        height: 25px;
+        padding: 0 12px;
+    }
+    .cat-link { 
+        padding: 5px 12px;
+        font-size: 12px; 
+    }
+    .section-subtitle {
+        font-size: 10px; 
+    } 
+    .arrow-link {
+        font-size: 12px; 
+    }
+    .stats-list .number-count {
+        font-size: 30px;
+    }
+    .stats-list li {
+        font-size: 12px;
+    }
+    .benefits-container {
+        width: 100%;
+    }
+    .benefit-item {
+        padding: 12px;
+    }
+    .benefit-icon { 
+        width: fit-content;
+        font-size: 20px;
+    } 
+    .benefit-text h3 {
+        font-size: 17px; 
+    }
+    .benefit-text {
+        width: 90%;
+    }
+    .services-content h4 {
+        font-size: 20px;
+    }
+    .services-content h5 {
+        font-size: 12px;
+    }
+    .services-list {
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+    .table{
+        font-size: 12px;
+    } 
+    .tab-title { 
+        font-size: 12px;
+        padding: 7px 12px;
+        margin: 0 7px;
+    }
+    .catalogue-item-content h3 {
+        font-size: 12px; 
+    }
+    .size, .price{
+        font-size: 12px;
+    } 
+    .user-name {
+        font-size: 12px; 
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    .testimonials-item { 
+        padding: 25px;
+        border: 1px solid #c45064;
+    }
+    .contacts-title {
+        font-size: 17px;
+    }
+    .contacts-social-title { 
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .form-title {
+        font-size: 25px; 
+        margin-bottom: 12px;
+    }
+    .contact-form label {
+        font-size: 12px; 
+    }
+    #err-fname, #err-email, #err-mssg {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 12px;
+        border-bottom: 1px solid #2b2e38;
+        margin-bottom: 12px;
+    }
+    .contact-form input::placeholder, .contact-form textarea::placeholder {
+        font-size: 12px; 
+    }
+    .submit-btn {
+        font-size: 12px; 
+        padding: 5px 12px;
+        border: 1px solid #2b2e38;
+    }
+    .contacts-add-title {
+        font-size: 12px;
+    }
+    .contacts-add-info {
+        font-size: 12px; 
+    }
+    .footer-title {
+        font-size: 25px; 
+    }
+}
+@media all and (max-width: 992px){
+    .header-info {
+        height: 40px; 
+    }
+    .social-link, .header-info-item {
+        font-size: 7px;
+        margin-left: 8px; 
+    }
+    .header-info-item .fa-solid, .social-link .fa-brands {
+        font-size: 10px;
+    }
+    .img-logo {
+        width: 35px;
+        height: auto;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link { 
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .header-contact-us { 
+        padding: 5px;
+        font-size: 10px;
+    }
+    .main-title {
+        font-size: 40px;
+        letter-spacing: 0px;
+    } 
+    p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .carousel-control-next.home-arrow, .carousel-control-prev.home-arrow { 
+        padding: 3px 6px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 18px; 
+    }
+    .buttons .link-button {
+        padding: 6px; 
+        font-size: 10px;
+    }
+    .section-title {
+        font-size: 25px; 
+        margin-bottom: 10px;
+    }
+    .about-additional-content {
+        width: 100%;
+    }
+    .cats-container .cat-item { 
+        height: 225px; 
+    }
+    .cat-title span {
+        font-size: 10px; 
+    }
+    .cat-title {
+        top: 10px;
+        height: 23px;
+        padding: 0 10px;
+    }
+    .cat-link { 
+        padding: 5px 10px;
+        font-size: 10px; 
+    }
+    .section-subtitle {
+        font-size: 8px; 
+    } 
+    .arrow-link {
+        font-size: 10px; 
+    }
+    .stats-list .number-count {
+        font-size: 25px;
+    }
+    .stats-list li {
+        font-size: 10px;
+    }
+    .benefits-container {
+        width: 100%;
+    }
+    .benefit-item {
+        padding: 10px;
+    }
+    .benefit-icon { 
+        width: fit-content;
+        font-size: 18px;
+    }
+    .benefit-text {
+        width: 85%;
+    } 
+    .benefit-text h3 {
+        font-size: 15px; 
+    }
+    .services-content h4 {
+        font-size: 18px;
+    }
+    .services-content h5 {
+        font-size: 10px;
+    }
+    .services-list {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .table{
+        font-size: 10px;
+    } 
+    .tab-title { 
+        font-size: 10px;
+        padding: 5px 10px;
+        margin: 0 5px;
+    }
+    .catalogue-item-content h3 {
+        font-size: 10px; 
+    }
+    .size, .price{
+        font-size: 10px;
+    } 
+    .user-name {
+        font-size: 10px; 
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .testimonials-item { 
+        padding: 20px;
+        border: 1px solid #c45064;
+    }
+    .expand-item {
+        width: 75vw;
+    }  
+    .expand-image-btn {
+        top: 0;
+        right: 3px;
+    }
+    .expand-image-btn .fa-expand {
+        font-size: 12px;
+    }
+    .expanded-image-header .fa-xmark {
+        font-size: 15px; 
+    }
+    .expanded-image-header h4 {
+        font-size: 15px;
+    }
+    .contacts-title {
+        font-size: 15px;
+    }
+    .contacts-social-title { 
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .form-title {
+        font-size: 20px; 
+        margin-bottom: 10px;
+    }
+    .contact-form label {
+        font-size: 10px; 
+    }
+    #err-fname, #err-email, #err-mssg {
+        font-size: 6px;
+        margin-left: 5px;
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 10px;
+        border-bottom: 1px solid #2b2e38;
+        margin-bottom: 10px;
+    }
+    .contact-form input::placeholder, .contact-form textarea::placeholder {
+        font-size: 10px; 
+    }
+    .submit-btn {
+        font-size: 10px; 
+        padding: 5px 10px;
+        border: 1px solid #2b2e38;
+    }
+    .contacts-add-title {
+        font-size: 10px;
+    }
+    .contacts-add-info {
+        font-size: 10px; 
+    }
+    .footer-title {
+        font-size: 20px; 
+    }
+}  
+@media all and (max-width: 992px) and (min-height: 960px){
+    #home {
+        height: 35vh;
+    } 
+}
+@media all and (max-width: 768px){
+    .main-title {
+        font-size: 30px;
+        letter-spacing: 0px;
+    } 
+    .cats-container .cat-item {
+        height: 300px;
+        width: 100%;
+    }
+    .cat-button { 
+        left: 45%;
+        right: 45%;
+    }
+    .wrapper.about, .wrapper.services {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .block-content {
+        width: 100%;
+        opacity: 0;
+    }
+    .benefit-item {
+        padding: 10px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .services .block-content { 
+        margin-bottom: 30px;
+    }
+    .catalogue-item {
+        width: 31%; 
+    }
+    .testimonials-item {
+        padding: 15px; 
+    }
+    .carousel-control-next.testimonials-arrow, .carousel-control-prev.testimonials-arrow { 
+        padding: 5px 10px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 15px;
+    }
+    .portfolio-item {
+        width: 31%;
+        margin-bottom: 15px; 
+    }
+    .contacts { 
+        flex-wrap: wrap;
+    }
+    .contacts .block-content { 
+        margin-bottom: 30px;
+    }
+    .footer ul { 
+        margin-top: 15px;
+    }
+    .footer-copyright {
+        margin-top: 15px; 
+    }
+    .footer-copyright p {
+        font-size: 8px; 
+    }
+    #footer { 
+        padding: 30px;
+    }
+} 
+@media all and (max-width: 576px){ 
+    .header-contact-us{
+        display: none; 
+    }
+    .wrapper.header { 
+        padding: 0 15px;
+    }
+    .wrapper { 
+        padding: 0 15px;
+    }
+    .social-link, .header-info-item {
+        font-size: 7px;
+        margin-left: 0;
+        margin-right: 7px; 
+    }
+    .header-nav-content {
+        justify-content: space-between; 
+    }
+    .offcanvas{
+        background-color: #2b2e38;
+    }
+    .navbar-toggler .fa-solid{
+        font-size: 20px;
+        color: #2b2e38;
+    }
+    .navbar-toggler{
+        border: none;
+        outline: none;
+        box-shadow: none;
+        padding: 0;
+    }
+    .navbar-toggler:focus { 
+        box-shadow: none; 
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+        font-size: 15px;
+        margin-left: 0;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+    }
+    .btn-close-menu .fa-xmark{
+        color: #c45064; 
+    }
+    .nav-link::after{
+        display: none;
+    }
+    .navbar-nav .nav-link{
+        color: #ffff;
+    }
+    .navbar-nav .nav-link:hover{
+        color: inherit;
+    }
+    .nav-link:hover::after, .navbar-nav .nav-link.active::after{
+        display: none;
+    }  
+    .navbar-nav .nav-link.active{
+        color: #ffff;
+        background-color: #998857;
+        padding: 15px; 
+    }
+} 
+@media all and (max-width: 512px){
+    #home {
+        height: 30vh;
+    }
+    .text-content {
+        width: 76%;
+    }
+    .cat-button {
+        left: 43%;
+        right: 43%;
+    }
+}
+@media all and (max-width: 480px){
+    .text-content {
+        width: 80%;
+    }
+    .main-title {
+        font-size: 25px; 
+    }
+    .cats-container .cat-item {
+        height: 240px;
+        width: 100%;
+    }
+    .benefit-item {
+        width: 100%;
+        margin-bottom: 15px; 
+    }
+    .benefits-container{
+        flex-wrap: wrap; 
+    }
+    .testimonials-item {
+        width: 100%; 
+        margin-bottom: 15px; 
+    }
+    .carousel-item-content {
+        flex-wrap: wrap;
+    }
+}
+@media all and (max-width: 360px){
+    .main-title {
+        font-size: 21px;
+    }
+}
+
+
