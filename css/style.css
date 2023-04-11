@@ -44,6 +44,9 @@ button{
     border: none;
     outline: none;
 }
+input{
+    border-radius: 0;
+}
 .wrapper{
     padding: 0; 
 }
