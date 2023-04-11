@@ -1,26 +1,26 @@
 @font-face{
     font-family:font-italic;
-    src:url('F:/floors/fonts/Poppins-Italic.ttf');
+    src:url('/fonts/Poppins-Italic.ttf');
 }
 @font-face{
     font-family:font-regular;
-    src:url('F:/floors/fonts/Poppins/Poppins-Regular.ttf');
+    src:url('/fonts/Poppins/Poppins-Regular.ttf');
 }
 @font-face{
     font-family:font-medium;
-    src:url('F:/floors/fonts/Poppins/Poppins-Medium.ttf');
+    src:url('/fonts/Poppins/Poppins-Medium.ttf');
 }
 @font-face{
     font-family:font-semibold;
-    src:url('F:/floors/fonts/Poppins/Poppins-SemiBold.ttf'); 
+    src:url('/fonts/Poppins/Poppins-SemiBold.ttf'); 
 }
 @font-face{
     font-family:font-bold;
-    src:url('F:/floors/fonts/Poppins/Poppins-Bold.ttf'); 
+    src:url('/fonts/Poppins/Poppins-Bold.ttf'); 
 }
 @font-face{
     font-family:font-black;  
-    src:url('F:/floors/fonts/Poppins/Poppins-Bold.ttf');
+    src:url('/fonts/Poppins/Poppins-Bold.ttf');
 }
 *{
     box-sizing: border-box;
@@ -382,16 +382,16 @@ button{
     -o-transition: background-color .4s ease-in-out;
 }
 .cat-item:first-of-type .image-container{
-    background-image: url(F:/floors/images/madison-bracaglia-fcWAwPKpkTU-unsplash.jpg);
+    background-image: url(/images/madison-bracaglia-fcWAwPKpkTU-unsplash.jpg);
 }
 .cat-item:nth-of-type(2) .image-container{
-    background-image: url(F:/floors/images/mattias-russo-larsson-G8OTxsn7Bm0-unsplash.jpg);
+    background-image: url(/images/mattias-russo-larsson-G8OTxsn7Bm0-unsplash.jpg);
 }
 .cat-item:nth-of-type(3) .image-container{
-    background-image: url(F:/floors/images/mitchell-luo-_NzW-__ohkM-unsplash.jpg);
+    background-image: url(/images/mitchell-luo-_NzW-__ohkM-unsplash.jpg);
 }
 .cat-item:last-of-type .image-container{
-    background-image: url(F:/floors/images/note-thanun-fMsG3KPwuX0-unsplash.jpg);
+    background-image: url(/images/note-thanun-fMsG3KPwuX0-unsplash.jpg);
 }
 
 .wrapper.about, .wrapper.services{  
