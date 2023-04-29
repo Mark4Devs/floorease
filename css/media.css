@@ -470,8 +470,9 @@
     }
     .footer-copyright {
         margin-top: 15px; 
-    }
+    } 
     .footer-copyright p {
+        width: 75%;
         font-size: 8px; 
     }
     #footer { 
