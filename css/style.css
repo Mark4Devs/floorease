@@ -980,8 +980,8 @@ input{
     margin-top: 30px;
 }
 .footer a{
-    margin-right: 1vw;
-    font-size: 1vw;
+    margin-right: 15px;
+    font-size: 15px;
     color: #ffff;
 }
 .footer a:hover{
