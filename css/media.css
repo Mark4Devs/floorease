@@ -423,9 +423,8 @@
         height: 300px;
         width: 100%;
     }
-    .cat-button { 
-        left: 45%;
-        right: 45%;
+    .catalogue-item-image .cat-button {
+        left: 36%;
     }
     .wrapper.about, .wrapper.services {
         display: flex;
@@ -539,6 +538,9 @@
         background-color: #998857;
         padding: 15px; 
     }
+    .expand-item {
+        width: 100%;
+    }
 } 
 @media all and (max-width: 512px){
     #home {
@@ -576,6 +578,9 @@
     }
     .carousel-item-content {
         flex-wrap: wrap;
+    }
+    .expanded-image-header { 
+        padding: 15px 10px 10px 10px;
     }
 }
 @media all and (max-width: 360px){
