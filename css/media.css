@@ -582,6 +582,9 @@
     .expanded-image-header { 
         padding: 15px 10px 10px 10px;
     }
+    .catalogue-item {
+        width: 47%;
+    }
 }
 @media all and (max-width: 360px){
     .main-title {
